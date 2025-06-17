@@ -10,7 +10,6 @@ int nzd(int a, int b) {
   return a;
 }
 
-
 int main() {
   int a, b, c;
   cin >> a >> b >> c;
