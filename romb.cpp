@@ -20,12 +20,12 @@ int main() {
             skalarniProizvod(oduzmiVektor(tacke[2], tacke[3]), oduzmiVektor(tacke[1], tacke[3])) &&
             skalarniProizvod(oduzmiVektor(tacke[0], tacke[1]), oduzmiVektor(tacke[3], tacke[1])) ==
             skalarniProizvod(oduzmiVektor(tacke[3], tacke[2]), oduzmiVektor(tacke[0], tacke[2]))) {
-                cout << "DA\n";
+                cout << "DA" << endl;
                 pronadjen = true;
                 break;
             }
     }
     if(!pronadjen)
-        cout << "NE\n";
+        cout << "NE" << endl;
     return 0;
 }
